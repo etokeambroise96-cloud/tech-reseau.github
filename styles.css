@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f7fa;
+}
+/* h1 & h2 */
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+/* header */
+header{
+    border: 2px solid rgb(8, 8, 8);
+    background-color: rgb(56, 115, 182);
+    max-width: 50%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* a lien */
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 40px;
+    color: #0e0d0d;
+    transition: 0.30s;
+    color: white;
+}
+a:hover{
+    color: #5906b8
+
+}
+
+/* img */
+img{
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow:  5px 10px 15px black;
+    transition: 0.30s;
+}
+img:hover{
+    transform: scale(1.03);
+}
+ 
+/* gallery */
+.gallery{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+  /* service */
+#service{
+    background-color: rgb(56, 115, 182);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px black;
+    transition: 0.3s;
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    color: white;
+}
+#service:hover{
+    transform: scale(1.03);
+}
+/* contact */
+#contact{
+    background-color: rgb(56, 115, 182);
+    border-radius: 10px;
+    box-shadow: 10px 15px 10px black;
+    max-width: 70%;
+    margin: 25px auto;
+    transition: 0.3s;
+    padding: 10px;
+    color: white;
+}
+#contact:hover{
+    transform: scale(1.03);
+}
+/* reel */
+.reel{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin: 30px;
+    padding: auto;
+
+}
+/* local */
+.local{
+    text-align: center;
+    margin: 20px;
+}
+/* write */
+.writh{
+    text-align: center;
+    margin: 20px;
+}
+/* paragraph */
+p{
+    text-align: justify;
+    margin: 20px;
+}
